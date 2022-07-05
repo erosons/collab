@@ -42,8 +42,8 @@ def get_files(folder):
 def get_files_by_pattern(pattern, folder):
     files list = SharePoint().download files(folder)
     for file in files_list:
-    if re.search(pattern, file['Name']) :
-    get file(file['Name'], folder)
+        if re.search(pattern, file['Name']) :
+        get file(file['Name'], folder)
 
 
 
