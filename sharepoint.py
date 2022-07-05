@@ -1,4 +1,4 @@
-From vg_sharepoint import sharepoint_utils as sp
+From sh_sharepoint import sharepoint_utils as sp
 import re
 import sys
 import os
@@ -7,7 +7,7 @@ import sharepoint
 import json
 
 site_url = 'url'
-folder_name = 'Shared Documents/General/05 Upskill/04 Analytics Upskill Sessions'
+folder_name = ' '
 site_path ="/" + site_url.split("/", 3)[3]
 
 # 1 args = folder_name
